@@ -1,0 +1,16 @@
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; 
+  font-family: Arial,  sans-serif;
+  background-position:center ;
+  background-attachment: fixed;
+}
+body  {
+  background-image:  url("https://clearview-communications.com/wp-content/uploads/2020/04/Facial-Recognition-B-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
