@@ -56,6 +56,11 @@ The Electronic Affidavit project is a web-based platform that provides authentic
      cd frontend
      npm start
      ```
+   - Start the flask:
+     ```
+     cd flask_api
+     python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+     ```  
 
 6. **Access the Application:**
    - Open a web browser and navigate to the specified URL (default: `http://localhost:3000`).
